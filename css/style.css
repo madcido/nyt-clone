@@ -5,6 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  background-color: white;
 }
 
 .menu-button{
@@ -64,3 +65,25 @@
 .button:hover{
   background-color: #326891;
 }
+
+.content {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.content img.post-img {
+  width: 70vw;
+ 
+}
+
+.content .img-post  p.text-img {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  
+}
+
+
