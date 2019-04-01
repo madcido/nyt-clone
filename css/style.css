@@ -1,0 +1,66 @@
+#navbar{
+  width: 100vw;
+  height: 40px;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu-button{
+  position: absolute;
+  top: 8px;
+  left: 15px;
+}
+.mag-button{
+  position: absolute;
+  top: 8px;
+  left: 50px;
+}
+.weird-link{
+  position: absolute;
+  top: 11px;
+  left: 95px;
+  color: black;
+}
+.weird-link:hover {
+  text-decoration: underline;
+}
+.logo-link {
+  position: absolute;
+  top: -17px;
+  left: 550px;
+}
+.first-button{
+  position: absolute;
+  top: 5px;
+  left: 1050px;
+}
+.second-button{
+  position: absolute;
+  top: 5px;
+  left: 1250px;
+
+}
+.icon-button{
+  width: 25px;
+  height: 25px;
+}
+.no-margin{
+  margin:0;
+}
+.logo{
+  width: 250px;
+  height: 70px;
+}
+.button{
+  color: white;
+  font-weight: bold;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 4px;
+  height: 30px;
+}
+.button:hover{
+  background-color: #326891;
+}
