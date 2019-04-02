@@ -1,221 +1,224 @@
-a{
-  text-decoration: none;
-}
-
-/*start of navbar styles*/
-#navbar{
-  box-sizing: border-box;
-  width: 100vw;
-  height: 40px;
-  border-bottom: 1px solid gray;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: white;
-  z-index: 10;
-  padding: 5px 20px;
-  font-family: arial;
-  font-size: 14px;
-}
-
-#navbar button{
-  cursor: pointer;
-}
-
-.icon-button{
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: white;
-  padding: 0;
-}
-
-.icon-button img {
-  width: 16px;
-  height: 16px;
-  margin: 7px;
-}
-
-.icon-button:hover{
-  background-color: rgba(200, 200, 200, 0.2);
-}
-
-.weird-link{
-  float: left;
-  height: 30px;
-  color: black;
-  position: relative;
-  bottom: 10px;
-}
-
-.weird-link:hover {
-  text-decoration: underline;
-}
-
-.logo{
-  width: 230px;
-  height: 30px;
-  margin: 0 auto;
-}
-
-.logo img{
-  width: 100%;
-  height: 100%;
-}
-
-.blue-button{
-  float: right;
-  color: white;
-  font-weight: bold;
-  background-color: #6288a5;
-  border: 1px solid #326891;
-  border-radius: 3px;
-  height: 30px;
-  margin-left: 5px;
-}
-
-.blue-button:hover{
-  background-color: #326891;
-}
-/*end of navbar styles*/
-
-/* flex stuff */
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
-.flex-row {
-  display: flex;
-}
-.space-between {
-  justify-content: space-between;
-}
-.align-center{
-  align-items: center;
-}
-.align-start {
-  align-items: flex-start;
-}
-.align-end {
-  align-items: flex-end;
-}
-
-/* end of flex stuff */
 
 
-.content {
-  width: 50%;
-  margin: 0 auto;
-  text-align: left;
-  padding-top: 50px;
-}
 
-.content h1{
-  font-size: 26px;
-  width: 60%;
-  font-style: italic;
-}
 
-.title-img img {
-  width: 100%;
-}
 
-.title-img  p {
-  width: 80%;
-  margin: 0;
-  font-size: 12px;
-  color: gray;
-}
 
-.title-img {
-  position: relative;
-  left: -100px;
-  width: 60vw;
-  margin-bottom: 30px;
-}
 
-.post-meta {
-  height: 100px;
-  font-size: 14px;
-}
 
-.post-meta p {
-  font-weight: 600;
-}
 
-.post-meta a {
-  text-decoration: underline;
-  color: black;
-}
 
-.post-meta a:hover {
-  text-decoration: none;
-}
 
-.post-meta span {
-  color: gray;
-}
 
-.post-meta div {
-  height: 40px;
-}
 
-.icons i {
-  margin-right: 15px;
-  border-radius: 100%;
-  padding: 12px;
-  width: 15px;
-  background-color: silver;
-  border: 1px solid silver;
-  text-align: center;
-}
 
-.icons i:hover {
-  background-color: white;
-  border: 1px solid silver;
-}
 
-.article .post-content p, h2 {
-  font-size: 16px;
-}
 
-.sidebar {
-float: right;
-width: 20%;
-}
 
-/*From beta Branch*/
 
-.post-cut {
-  display: grid;
-  grid-template-columns: repeat(4, 162px);
-  grid-template-rows: repeat(2,320px);
-  background-image: url('../img/inflation.png');
-  background-size: 650px 648px;
-  background-repeat: no-repeat;
-  background-position: center; 
-  grid-gap: 8px;
- justify-content: center;
- 
-}
 
-.post-content .post-cut .grid-info{
- position: relative;
- top: 110px;
-}
 
-.post-content .post-cut .grid-info p  {
- font-size: 13px;
- font-family: Arial, Helvetica, sans-serif;
-}
 
-.post-content .title-graph p {
-  font-size: 14px;
-  color: gray;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
