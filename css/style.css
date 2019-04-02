@@ -186,3 +186,35 @@ a{
 float: right;
 width: 20%;
 }
+
+/*From beta Branch*/
+
+.post-cut {
+  display: grid;
+  grid-template-columns: repeat(4, 162px);
+  grid-template-rows: repeat(2,320px);
+  background-image: url('../img/inflation.png');
+  background-size: 650px 648px;
+  background-repeat: no-repeat;
+  background-position: center; 
+  grid-gap: 8px;
+ justify-content: center;
+ 
+}
+
+.post-content .post-cut .grid-info{
+ position: relative;
+ top: 110px;
+}
+
+.post-content .post-cut .grid-info p  {
+ font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Post video*/
+
+.video-post {
+  width: 100%;
+}
+
