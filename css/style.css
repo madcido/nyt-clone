@@ -125,7 +125,7 @@ a{
 
 .title-img  p {
   width: 80%;
-  margin-top: 0;
+  margin: 0;
   font-size: 12px;
   color: gray;
 }
@@ -139,11 +139,20 @@ a{
 
 .post-meta {
   height: 100px;
+  font-size: 14px;
 }
 
 .post-meta p {
-  font-size: 18px;
   font-weight: 600;
+}
+
+.post-meta a {
+  text-decoration: underline;
+  color: black;
+}
+
+.post-meta a:hover {
+  text-decoration: none;
 }
 
 .post-meta span {
@@ -151,7 +160,7 @@ a{
 }
 
 .post-meta div {
-  height: 39px;
+  height: 40px;
 }
 
 .icons i {
