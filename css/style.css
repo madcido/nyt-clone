@@ -345,7 +345,7 @@ width: 20%;
   margin: 0 10px;
 
 }
-  
+
  .post-cut {
   display: grid;
   grid-template-columns: repeat(4, 162px);
@@ -353,10 +353,10 @@ width: 20%;
   background-image: url('../img/inflation.png');
   background-size: 650px 648px;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   grid-gap: 8px;
  justify-content: center;
- 
+
 }
 
 .post-content .post-cut .grid-info{
