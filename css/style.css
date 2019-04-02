@@ -1,5 +1,9 @@
 a{
   text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 /*start of navbar styles*/
@@ -46,13 +50,8 @@ a{
 .weird-link{
   float: left;
   height: 30px;
-  color: black;
   position: relative;
   bottom: 10px;
-}
-
-.weird-link:hover {
-  text-decoration: underline;
 }
 
 .logo{
@@ -82,6 +81,7 @@ a{
 }
 /*end of navbar styles*/
 
+
 /* flex stuff */
 .flex-col {
   display: flex;
@@ -93,6 +93,12 @@ a{
 .space-between {
   justify-content: space-between;
 }
+.start {
+  justify-content: flex-start;
+}
+.center{
+  justify-content: center;
+}
 .align-center{
   align-items: center;
 }
@@ -102,9 +108,15 @@ a{
 .align-end {
   align-items: flex-end;
 }
-
 /* end of flex stuff */
 
+
+.float-left {
+  float: left;
+}
+.float-right{
+  float: right;
+}
 
 .content {
   width: 50%;
@@ -182,14 +194,159 @@ a{
   font-size: 16px;
 }
 
+.post-footer {
+  margin-top: 50px;
+}
+
 .sidebar {
 float: right;
 width: 20%;
 }
 
-/*From beta Branch*/
 
-.post-cut {
+.more {
+  width: 90%;
+  margin: 50px auto;
+}
+.more div.float-left {
+  width: 70%;
+}
+
+.more div.float-right {
+  width: 25%;
+}
+
+.more h2 {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.more a {
+  color: black;
+}
+
+.more a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.more a.different:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.more-section {
+  border-top: 1px solid black;
+}
+
+.popular-container{
+  border-top: 1px solid silver;
+  padding-top: 10px;
+}
+
+.more-container figure {
+  margin: 0;
+}
+
+.more-container figcaption {
+  font-size: 8px;
+  text-align: right;
+  color: gray;
+}
+
+.more-container img{
+  width: 100%;
+}
+
+.editor-pick {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.section-pick {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.date {
+  margin-top: 0;
+  font-size: 11px;
+  color: gray;
+}
+
+.footer {
+  clear: both;
+  margin: 50px auto;
+  width: 90%;
+  border-top: 4px double silver;
+  font-family: verdana;
+}
+
+.footer .logo{
+  margin: 10px 0;
+}
+
+.footer .home{
+  color: #326891;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer h4 {
+  margin-top: 0;
+}
+
+.footer-column {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.footer p{
+  margin: 5px 0;
+}
+
+.last-column {
+  border-left: 1px solid silver;
+  padding-left: 15px;
+  margin: 10px 0;
+  font-size: 12px;
+  height: 100%;
+}
+
+.box-1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.box-2 {
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.box-3 {
+  font-size: 10px;
+  padding: 10px 0;
+  border-top: 1px solid silver;
+  width: 100%;
+}
+
+.last-section {
+  border-top: 1px solid silver;
+  padding: 7px 0;
+  margin-bottom: 50px;
+}
+
+.last-section a{
+  font-size: 10px;
+  color: gray;
+  margin: 0 10px;
+
+}
+  
+ .post-cut {
   display: grid;
   grid-template-columns: repeat(4, 162px);
   grid-template-rows: repeat(2,320px);
@@ -248,4 +405,3 @@ width: 20%;
 .post-content figure figcaption {
   font-size: 15px;
   color: gray;
-}
