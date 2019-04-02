@@ -2,6 +2,22 @@ a{
   text-decoration: none;
 }
 
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.flex-row {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
 /*start of navbar styles*/
 #navbar{
   box-sizing: border-box;
@@ -88,21 +104,73 @@ a{
 }
 
 .content {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
   text-align: center;
+}
+.sidebar {
+
+float: right;
+width: 20%;
+}
+
+.img-post {
+  position: relative;
+  left: -100px;
+  width: 60vw;
+  margin-bottom: 30px;
 }
 
 .content img.post-img {
-  width: 70vw;
+ 
+  width: 100%;
 
 }
 
 .content .img-post  p.text-img {
-  width: 50%;
-  margin: auto;
+  width: 80%;
+  margin-top: 0;
   text-align: left;
 
 }
+
+.align-start {
+  align-items: flex-start;
+}
+
+.post-meta {
+  text-align: left;
+}
+
+.post-meta p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.post-meta span {
+  color: gray;
+}
+
+.icons i {
+  margin-right: 15px;
+  border-radius: 100%;
+  padding: 12px;
+  width: 15px;
+  background-color: silver;
+}
+
+.icons i:hover {
+  background-color: white;
+  border: 1px solid silver;
+}
+
+.article .post-content h1,h2,h3,h4,h5 {
+  text-align: left;
+}
+
+.article .post-content p {
+  font-size: 22px;
+  text-align: left;
+}
+
+
