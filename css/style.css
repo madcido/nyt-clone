@@ -199,8 +199,34 @@ a:hover{
 }
 
 .sidebar {
-float: right;
-width: 20%;
+position: absolute;
+right: 10%;
+width: 10%;
+}
+
+.sidebar p.title {
+  font-weight: 600;
+}
+
+.sidebar p.signup {
+  font-size: 13px;
+}
+
+.editors {
+  display: flex;
+  
+
+}
+
+.editors img {
+  width: 75px;
+  height: 75px;
+ margin: 0 5px 15px 0;
+}
+
+.sidebar .editors p {
+  margin: 0;
+  font-size: 12px;
 }
 
 
