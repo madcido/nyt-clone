@@ -114,6 +114,7 @@ a:hover{
 .float-left {
   float: left;
 }
+
 .float-right{
   float: right;
 }
@@ -214,8 +215,6 @@ width: 10%;
 
 .editors {
   display: flex;
-  
-
 }
 
 .editors img {
@@ -229,11 +228,12 @@ width: 10%;
   font-size: 12px;
 }
 
-
+/* related articles section below*/
 .more {
   width: 90%;
   margin: 50px auto;
 }
+
 .more div.float-left {
   width: 70%;
 }
@@ -302,7 +302,9 @@ width: 10%;
   font-size: 11px;
   color: gray;
 }
+/* related articles section above*/
 
+/* footer section below*/
 .footer {
   clear: both;
   margin: 50px auto;
@@ -369,10 +371,12 @@ width: 10%;
   font-size: 10px;
   color: gray;
   margin: 0 10px;
-
 }
+/* footer section above*/
 
- .post-cut {
+
+/* article add-ons */
+.post-cut {
   display: grid;
   grid-template-columns: repeat(4, 162px);
   grid-template-rows: repeat(2,320px);
@@ -381,8 +385,7 @@ width: 10%;
   background-repeat: no-repeat;
   background-position: center;
   grid-gap: 8px;
- justify-content: center;
-
+  justify-content: center;
 }
 
 .post-content .post-cut .grid-info{
@@ -399,8 +402,6 @@ width: 10%;
   font-size: 14px;
   color: gray;
 }
-
-/*Post video*/
 
 .post-content .post-video iframe {
   width: 100%;
@@ -420,8 +421,6 @@ width: 10%;
 .post-content .post-img {
   position: relative;
   width: 100%;
-
-
 }
 
 .post-content .post-img figure img {
@@ -432,3 +431,4 @@ width: 10%;
   font-size: 15px;
   color: gray;
 }
+/* article add-ons */
