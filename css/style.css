@@ -201,8 +201,8 @@ a:hover{
 
 .sidebar {
 position: absolute;
-right: 10%;
-width: 10%;
+right: 7%;
+width: 13%;
 }
 
 .sidebar p.title {
@@ -225,7 +225,7 @@ width: 10%;
 
 .sidebar .editors p {
   margin: 0;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /* related articles section below*/
